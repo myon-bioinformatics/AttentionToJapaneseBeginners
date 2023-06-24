@@ -143,18 +143,20 @@ No problem!!
 
 
 # 🚴‍♂️Dear non-Japanese speaker
-About "繧ｯ繝ｭ繝ｼ繧ｸ繝｣繧剃ｽｿ逕ｨ縺励◆" even the Japanese speaker doesn't often use.
+About "繧ｯ繝ｭ繝ｼ繧ｸ繝｣繧剃ｽｿ逕ｨ縺励◆" 👈even the Japanese speaker doesn't often use.
 
 But, they often use the char like ["表","能","十","法","充","型","施","倍","本","図"]
 
-> **表**(b'\x95\\') is noun and means "chart", "table", "list" and so on.
+> **表**(b'\x95\\') is noun and means 💹 📊 📈("chart", "table", "list" and so on).
 > 
 > For example: "matrix chart" equals "マトリックス表"(マトリックス=matrix)
 >
-> **能**(b'\x94\\') is noun and **能力** means "ability", "talent" ,and "skill".
-> >btw, "力" is noun and means "power".
+> **能**(b'\x94\\') is noun, and **能力** means "ability", "talent" ,and "skill".
+> >btw, "力" is noun and means "power"💪.
 > 
 > **十**(b'\x8f\\') is noun and means "Ten(=10)"
+> 
+> >🔟🔟(Twenty) expresses 20, or 二十(二=two)
 > 
 > About Jujutsu Kaisen, characters such as Megumi Fushiguro use "Ten Shadows Technique"(十種影法術 Tokusa no Kage Bōjutsu)
 >
