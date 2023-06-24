@@ -49,18 +49,11 @@ python main.py
 ### 🍮at length🍮
 **🚴‍♂️(ENG)**
 
-- he second byte of the character "能" is " \\".
+- The second byte of the character "能" is " \\".
 
 - This is equivalent to writing "\" at the end of a line, indicating the end of the line.
 
 - In the C programming language, this would result in the code being commented out until the next line.
-
-**"Example"**
-```
-表: b'\x95\\'
-能: b'\x94\\'
-十: b'\x8f\\'
-```
 
 **🚴‍♀️(JSP)**
 
@@ -70,7 +63,7 @@ python main.py
 
 - C言語では、これによって次の行までがコメントアウトされてしまいます。
 
-**"例"**
+### Example include those with a second byte of "\\"(0x5c)
 ```
 表: b'\x95\\'
 能: b'\x94\\'
@@ -142,11 +135,11 @@ No problem!!
 
 
 ### 🧁Mojibake in detail🧁
-- 🤥main.py🤥
->    easy_separator = easy_separator_closure()() #これはクロージャという機能
-
-- 😵‍💫main_to_mojibake.py(Even the Japanese can't read)😵‍💫
->    easy_separator = easy_separator_closure()() #繧ｯ繝ｭ繝ｼ繧ｸ繝｣繧剃ｽｿ逕ｨ縺励◆
+>- 🤥main.py🤥
+>>    easy_separator = easy_separator_closure()() #これはクロージャという機能
+>
+>- 😵‍💫main_to_mojibake.py(Even the Japanese can't read)😵‍💫
+>>    easy_separator = easy_separator_closure()() #繧ｯ繝ｭ繝ｼ繧ｸ繝｣繧剃ｽｿ逕ｨ縺励◆
 
 
 # 🚴‍♂️Dear non-Japanese speaker
