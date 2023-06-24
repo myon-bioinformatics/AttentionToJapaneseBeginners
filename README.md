@@ -1,11 +1,11 @@
 # 😎Summary😎
 **🚴‍♂️(ENG)**
 
-**Acknowledge HARMFUL Shift_JIS char as example, and please pay attention not to let non-alphanumeric-character use as far as possible!**
+**Acknowledge HARMFUL Shift_JIS char as example, and please pay attention not to let non-alphanumeric-character use as far as possible**
 
 **🚴‍♀️(JSP)**
 
-**コメントアウトや標準出力の利用であっても、プログラム内にはできるだけ漢字などのアルファベットではない文字を使わないようにしましょう...**
+**コメントアウトや標準出力の利用であっても、プログラム内にはできるだけ漢字などのアルファベットではない文字を使わないようにしましょう**
 
 > __Note__ Now Preparing
 
