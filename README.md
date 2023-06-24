@@ -17,9 +17,23 @@
 1. ちなみにこのプログラム(_main.py_)は成功例のため、問題は基本的に起こりません。
 
 # Causion & Countermeasures
+
+# Example
 🚴‍♂️(ENG)
 
+- he second byte of the character "能" is "\".
+
+- This is equivalent to writing "\" at the end of a line.
+
+- In the C programming language, this would result in the code being commented out until the next line.
+
 🚴‍♀️(JSP)
+
+- 例えば、「能」という文字の2バイト目は「\」です。
+
+- これは行の終わりを意味する記号と同義です。
+
+- C言語では、これによって次の行までがコメントアウトされてしまいます。
 
 
 # 📝The Result of Standard Output📝
