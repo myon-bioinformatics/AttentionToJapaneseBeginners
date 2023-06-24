@@ -3,6 +3,8 @@
 
 **🚴‍♀️(JSP)コメントアウトや標準出力でさえ、プログラム内にはできるだけ日本語は含まないようにしましょう...**
 
+> __Note__ Now Preparing
+
 # 🫶Notice
 🚴‍♂️(ENG)
 1. If a program includes non-alphabet character, a problem may be occured by it.
