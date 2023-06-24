@@ -7,7 +7,7 @@
 
 # 🫶Notice
 🚴‍♂️(ENG)
-1. If a program includes non-alphabet character, a problem may be occured by it.
+1. If a program includes non-alphanumeric-character, a problem may be occured by it.
 1. At this time, Shift_JIS is encoded or decoded as example.
 1. By the way this program(_main.py_) is a succeed case, a problem isn't basically occured.
 
