@@ -23,7 +23,7 @@
 
 - About Shift_JIS (SJIS, cp932) character encoding, representative characters include those with a second byte of 0x5c, such as "\\". 
 
-- Broadly, it can include characters with a second byte of 0x7c( "|" ) or characters overlapping with metacharacters used in regular expressions.
+- Broadly, it can include characters with a second byte of 0x7c( "|" ), or characters overlapping with metacharacters used in regular expressions.
 
 🚴‍♀️(JSP)
 
