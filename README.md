@@ -25,7 +25,7 @@
 ## 😖Cause
 **🚴‍♂️(ENG)**
 
-🤖The followings are the causes🤖☞
+> 🤖The followings are the causes🤖☞
 - Even though it appears as a single character, issues can arise due to the actual character consisting of two or more bytes. 
 
 - About Shift_JIS (SJIS, cp932) character encoding, representative characters include those with a second byte of 0x5c, such as "\\". 
@@ -34,7 +34,7 @@
 
 **🚴‍♀️(JSP)**
 
-🤖以下がその原因です🤖☞
+> 🤖以下がその原因です🤖☞
 
 - 見かけ上は1つの文字であっても、実際には2バイト以上であることが原因で問題が起こることがあります。
 
@@ -76,7 +76,7 @@
 ## 😆Countermeasures
 **🚴‍♂️(ENG)**
 
-🥷The solutions are surprisingly simple🥷
+> 🥷The solutions are surprisingly simple🥷
 
 Add a period (".") at the end of commented-out statements: **"Simple"**
 
@@ -86,15 +86,15 @@ Use character encoding/decoding with a character set such as "UTF-8": **"Common"
 
 **🚴‍♀️(JSP)**
 
-🥷解決策は意外と単純🥷
+> 🥷解決策は意外と単純🥷
 - コメントアウトの文末に"."(ピリオド)などをつける: **「簡単」**
 - エンコード/デコード時の文字コードを「UTF-8」などにする: **「通常」**
 - **そもそも英数字以外はできるだけ使わない**: **「重要」**
 
 # 📝The Result of Standard Output📝
-**🚴‍♂️(ENG)**☕️The following is the result to execute main.py as a succeed case☕️
+**🚴‍♂️(ENG)** ☕️The following is the result to execute main.py as a succeed case☕️
 
-**🚴‍♀️(JSP)**☕️以下の例はmain.pyを実行した時の成功例の結果です☕️
+**🚴‍♀️(JSP)** ☕️以下の例はmain.pyを実行した時の成功例の結果です☕️
 
 ```
 ----------------
