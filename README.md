@@ -144,11 +144,16 @@ No problem!!
 
 # 🚴‍♂️Dear non-Japanese speaker
 About "繧ｯ繝ｭ繝ｼ繧ｸ繝｣繧剃ｽｿ逕ｨ縺励◆" even the Japanese speaker doesn't use.
-But, 
 
+But, they use the char like ["表","能","十","法","充","型","施","倍","本","図"]
 
-> 十(b'\x8f\\') means "Ten(=10)"
-> For Jujutsu Kaisen, characters such as Megumi Fushiguro use "Ten Shadows Technique"(十種影法術 Tokusa no Kage Bōjutsu)
+> **十**(b'\x8f\\') means "Ten(=10)"
+> 
+> About Jujutsu Kaisen, characters such as Megumi Fushiguro use "Ten Shadows Technique"(十種影法術 Tokusa no Kage Bōjutsu)
+>
+> **表**(b'\x95\\') means "chart", "table", "list" and so on.
+> 
+> For example: "matrix chart" equals "マトリックス表"(マトリックス=matrix)
 
 ## References
 - [Variable-width_encoding](https://en.wikipedia.org/wiki/Variable-width_encoding)
