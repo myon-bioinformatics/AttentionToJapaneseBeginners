@@ -1,4 +1,4 @@
-# 😎Summary
+# 😎Summary😎
 **🚴‍♂️(ENG)**
 
 **Acknowledge HARMFUL Shift_JIS, and please pay attention not to let it use as far as possible!**
@@ -9,7 +9,7 @@
 
 > __Note__ Now Preparing
 
-# 🫶Notice
+# 🫶Notice🫶
 🚴‍♂️(ENG)
 1. If a program includes non-alphanumeric-character, a problem may be occured by it.
 1. At this time, Shift_JIS is encoded or decoded as example.
@@ -24,7 +24,7 @@
 ## 😖Cause
 🚴‍♂️(ENG)
 
-🤖The followings are the causes☞
+🤖The followings are the causes🤖☞
 - Even though it appears as a single character, issues can arise due to the actual character consisting of two or more bytes. 
 
 - About Shift_JIS (SJIS, cp932) character encoding, representative characters include those with a second byte of 0x5c, such as "\\". 
@@ -33,7 +33,7 @@
 
 🚴‍♀️(JSP)
 
-🤖以下がその原因です☞
+🤖以下がその原因です🤖☞
 
 - 見かけ上は1つの文字であっても、実際には2バイト以上であることが原因で問題が起こりることがあります。
 
@@ -41,7 +41,7 @@
 
 - 広義の意味では、2バイト目が0x7cの「|」（パイプ文字）や、2バイト目が正規表現などのメタ文字と重なる文字も含みます。
 
-### Example
+### 🍮Example🍮
 🚴‍♂️(ENG)
 
 - he second byte of the character "能" is " \\".
@@ -62,9 +62,9 @@
 
 
 # 📝The Result of Standard Output📝
-🚴‍♂️(ENG)the following is the result to execute main.py as a succeed case.
+🚴‍♂️(ENG)☕️The following is the result to execute main.py as a succeed case☕️
 
-🚴‍♀️(JSP)以下の例はmain.pyを実行した時の成功例の結果です。
+🚴‍♀️(JSP)☕️以下の例はmain.pyを実行した時の成功例の結果です☕️
 
 ```
 ----------------
