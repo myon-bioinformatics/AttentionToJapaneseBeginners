@@ -20,10 +20,11 @@
 1. 今回は、Shift_JISがエンコードもしくはデコードされた時を例にします。
 1. ちなみにこのプログラム(_main.py_)は成功例のため、問題は基本的に起こりません。
 
-# Causion & Countermeasures
-## Causion
+# 😖Cause & 😆Countermeasures
+## 😖Cause
 🚴‍♂️(ENG)
 
+🤖The followings are the causes☞
 - Even though it appears as a single character, issues can arise due to the actual character consisting of two or more bytes. 
 
 - About Shift_JIS (SJIS, cp932) character encoding, representative characters include those with a second byte of 0x5c, such as "\\". 
@@ -31,6 +32,8 @@
 - Broadly, it can include characters with a second byte of 0x7c( "|" ), or characters overlapping with metacharacters used in regular expressions.
 
 🚴‍♀️(JSP)
+
+🤖以下がその原因です☞
 
 - 見かけ上は1つの文字であっても、実際には2バイト以上であることが原因で問題が起こりることがあります。
 
@@ -55,7 +58,7 @@
 
 - C言語では、これによって次の行までがコメントアウトされてしまいます。
 
-## Countermeasures
+## 😆Countermeasures
 
 
 # 📝The Result of Standard Output📝
