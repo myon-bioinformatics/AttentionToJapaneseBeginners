@@ -34,7 +34,7 @@ a b'a'
 1 b'1'
 ----------------
 Called function: standard_output_harmful_shift_jis
-予 b'\x97\\'
+表 b'\x95\\'
 能 b'\x94\\'
 十 b'\x8f\\'
 法 b'\x96@'
