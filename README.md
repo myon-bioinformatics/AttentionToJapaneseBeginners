@@ -17,6 +17,7 @@
 
 # 📝The Result of Standard Output📝
 🚴‍♂️(ENG)the following is the result to execute main.py as a succeed case.
+
 🚴‍♀️(JSP)以下の例はmain.pyを実行した時の成功例の結果です。
 
 ```
@@ -48,3 +49,10 @@ No problem!!
 Called function: print_harmful_shift_jis
 No problem!!
 ```
+
+# 🚴‍♂️Dear non-Japanese speaker
+
+# 🚴‍♀️Dear Japanese speaker(日本語話者に向けて)
+
+
+
