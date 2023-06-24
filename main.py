@@ -12,7 +12,7 @@ def standard_output_harmless_shift_jis():
 #Standard Output: HARMFUL Shift_JIS char!!
 def standard_output_harmful_shift_jis():
     easy_separator = easy_separator_closure()()
-    for char in ["予","能","十","法","充","型","施","倍","本","図"]: #HARMFUL!!!!
+    for char in ["表","能","十","法","充","型","施","倍","本","図"]: #HARMFUL!!!!
         print(char,char.encode("shift_jis"))
     easy_separator
     return
