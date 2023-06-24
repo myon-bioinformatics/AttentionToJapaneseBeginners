@@ -76,5 +76,7 @@ No problem!!
 
 # 🚴‍♀️日本語話者に向けて
 
+参考： https://sites.google.com/site/fudist/Home/grep/sjis-damemoji-jp?authuser=0
+
 
 
