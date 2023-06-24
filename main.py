@@ -5,7 +5,7 @@ import inspect
 def standard_output_harmless_shift_jis():
     easy_separator = easy_separator_closure()()
     for char in ["る","た","記","〆","能.","a","1"]: #harmless
-        print(char,char.encode("shift_jis"))
+        print(char,char.encode("shift_jis"),sep=": ")
     easy_separator
     return
 
@@ -13,7 +13,7 @@ def standard_output_harmless_shift_jis():
 def standard_output_harmful_shift_jis():
     easy_separator = easy_separator_closure()()
     for char in ["表","能","十","法","充","型","施","倍","本","図"]: #HARMFUL!!!!
-        print(char,char.encode("shift_jis"))
+        print(char,char.encode("shift_jis"),sep=": ")
     easy_separator
     return
 
@@ -45,7 +45,7 @@ if __name__ == "__main__":
     standard_output_harmless_shift_jis()
     standard_output_harmful_shift_jis()
 
-    #print("No problem!!") with Shift_JIS char comments
+    #print("No problem!!") with Shift_JIS char
     print_harmless_shift_jis()
     print_harmful_shift_jis()
 

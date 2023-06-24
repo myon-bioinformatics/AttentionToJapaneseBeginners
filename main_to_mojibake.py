@@ -1,13 +1,13 @@
 '''Dear English speaker
 !!!!!Attention in advance: this program is a failed case!!!!!
-SyntaxError: Non-UTF-8 code starting with...←this is encoded to "Shift JIS” intentionally.
+SyntaxError: Non-UTF-8 code starting with...��this is encoded to "Shift JIS�h intentionally.
 Python 3 uses "UTF-8" as default encoding. you should execute main.py instead of this
 '''
 
-'''日本語話者に向けて
-!!!!!予め: このプログラムは失敗事例です!!!!!
-SyntaxError: Non-UTF-8 code starting with...←わざとこのファイルを"Shift JIS"にエンコードしています。
-Python3はデフォルトのエンコーディングとして「UTF-8」を使います。これではなくmain.pyを素直に実行してください。。
+'''���{��b�҂Ɍ�����
+!!!!!�\��: ���̃v���O�����͎��s����ł�!!!!!
+SyntaxError: Non-UTF-8 code starting with...���킴�Ƃ��̃t�@�C����"Shift JIS"�ɃG���R�[�h���Ă��܂��B
+Python3�̓f�t�H���g�̃G���R�[�f�B���O�Ƃ��āuUTF-8�v���g���܂��B����ł͂Ȃ�main.py��f���Ɏ��s���Ă��������B�B
 '''
 
 import inspect
@@ -15,29 +15,29 @@ import inspect
 #Standard Output: harmless Shift_JIS char
 def standard_output_harmless_shift_jis():
     easy_separator = easy_separator_closure()()
-    for char in ["繧?","縺?","險?","縲?","閭ｽ.","a","1"]: #harmless
-        print(char,char.encode("shift_jis"))
+    for char in ["�?","�?","�?","�?","能.","a","1"]: #harmless
+        print(char,char.encode("shift_jis"),sep=": ")
     easy_separator
     return
 
 #Standard Output: HARMFUL Shift_JIS char!!
 def standard_output_harmful_shift_jis():
     easy_separator = easy_separator_closure()()
-    for char in ["陦ｨ","閭ｽ","蜊?","豕?","蜈?","蝙?","譁ｽ","蛟?","譛ｬ","蝗ｳ"]: #HARMFUL!!!!
-        print(char,char.encode("shift_jis"))
+    for char in ["表","能","�?","�?","�?","�?","施","�?","本","図"]: #HARMFUL!!!!
+        print(char,char.encode("shift_jis"),sep=": ")
     easy_separator
     return
 
 #print("No problem!!") with harmless Shift_JIS char
 def print_harmless_shift_jis():
-    easy_separator = easy_separator_closure()() #繧ｯ繝ｭ繝ｼ繧ｸ繝｣繧剃ｽｿ逕ｨ縺励◆
+    easy_separator = easy_separator_closure()() #クロージャを使用した
     print("No problem!!")
     easy_separator
     return
 
 #print("No problem!!") may not function with HARMFUL Shift_JIS char!!
 def print_harmful_shift_jis():
-    easy_separator = easy_separator_closure()() #縺薙ｌ縺ｯ繧ｯ繝ｭ繝ｼ繧ｸ繝｣縺ｨ縺?縺?讖溯?ｽ
+    easy_separator = easy_separator_closure()() #これはクロージャと�?�?機�?�
     print("No problem!!")
     easy_separator
     return
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     standard_output_harmless_shift_jis()
     standard_output_harmful_shift_jis()
 
-    #print("No problem!!") with Shift_JIS char comments
+    #print("No problem!!") with Shift_JIS char
     print_harmless_shift_jis()
     print_harmful_shift_jis()
 
