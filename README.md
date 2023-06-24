@@ -21,6 +21,7 @@
 1. ちなみにこのプログラム(_main.py_)は成功例のため、問題は基本的に起こりません。
 
 # Causion & Countermeasures
+## Causion
 🚴‍♂️(ENG)
 
 - Even though it appears as a single character, issues can arise due to the actual character consisting of two or more bytes. 
@@ -37,7 +38,7 @@
 
 - 広義の意味では、2バイト目が0x7cの「|」（パイプ文字）や、2バイト目が正規表現などのメタ文字と重なる文字も含みます。
 
-## Example
+### Example
 🚴‍♂️(ENG)
 
 - he second byte of the character "能" is " \\".
@@ -53,6 +54,8 @@
 - それは行末に「\\」と書かれていることと同義になります。
 
 - C言語では、これによって次の行までがコメントアウトされてしまいます。
+
+## Countermeasures
 
 
 # 📝The Result of Standard Output📝
