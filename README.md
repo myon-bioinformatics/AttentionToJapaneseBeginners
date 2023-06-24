@@ -54,7 +54,7 @@ No problem!!
 
 # 🚴‍♂️Dear non-Japanese speaker
 
-# 🚴‍♀️Dear Japanese speaker(日本語話者に向けて)
+# 🚴‍♀️日本語話者に向けて
 
 
 
