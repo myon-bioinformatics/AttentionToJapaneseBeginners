@@ -1,6 +1,15 @@
-# Summary
-**Acknowledge HARMFUL Shift_JIS, and please pay attention not to let it use as far as possible!!**
+# 😎Summary
+**🚴‍♂️(ENG)Acknowledge HARMFUL Shift_JIS, and please pay attention not to let it use as far as possible!!**
 
+**🚴‍♀️(JSP)コメントアウトや標準出力でさえ、プログラム内にはできるだけ日本語は含まないようにしよう...**
+
+# 🫶Notice
+1. If a program includes non-alphabet character, a problem is occured by it.
+1. At this time, Shift_JIS is encoded or decoded as example.
+1. By the way this program(main.py) is a succeed case, a problem isn't basically occured by it
+
+
+# 📝The Result of Standard Output📝
 the following is the result to execute main.py
 
 ```
