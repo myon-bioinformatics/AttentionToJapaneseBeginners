@@ -45,7 +45,7 @@ if __name__ == "__main__":
     standard_output_harmless_shift_jis()
     standard_output_harmful_shift_jis()
 
-    #print("No problem!!") with Shift_JIS char
+    #print("No problem!!") with Shift_JIS char comments
     print_harmless_shift_jis()
     print_harmful_shift_jis()
 
