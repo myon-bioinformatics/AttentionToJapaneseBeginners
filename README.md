@@ -17,8 +17,23 @@
 1. ちなみにこのプログラム(_main.py_)は成功例のため、問題は基本的に起こりません。
 
 # Causion & Countermeasures
+🚴‍♂️(ENG)
 
-# Example
+- Even though it appears as a single character, issues can arise due to the actual character consisting of two or more bytes. 
+
+- About Shift_JIS (SJIS, cp932) character encoding, representative characters include those with a second byte of 0x5c, such as "\\". 
+
+- Broadly, it can include characters with a second byte of 0x7c( "|" ) or characters overlapping with metacharacters used in regular expressions.
+
+🚴‍♀️(JSP)
+
+- 見かけ上は1つの文字であっても、実際には2バイト以上であることが原因で問題が起こりることがあります。
+
+- Shift_JIS（SJIS、cp932）の文字コードでは、2バイト目が0x5cの「\」（バックスラッシュ）を含む文字が代表的です。
+
+- 広義の意味では、2バイト目が0x7cの「|」（パイプ文字）や、2バイト目が正規表現などのメタ文字と重なる文字も含みます。
+
+## Example
 🚴‍♂️(ENG)
 
 - he second byte of the character "能" is " \\".
