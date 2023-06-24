@@ -132,13 +132,13 @@ No problem!!
 
 🚴‍♀️(JSP)
 
-```
-    easy_separator = easy_separator_closure()() #これはクロージャという機能
-```
+### 🧁in detail🧁
+- 🤥main.py🤥
+>    easy_separator = easy_separator_closure()() #これはクロージャという機能
 
-```
-    easy_separator = easy_separator_closure()() #繧ｯ繝ｭ繝ｼ繧ｸ繝｣繧剃ｽｿ逕ｨ縺励◆
-```
+- 😵‍💫main_to_mojibake.py(Even the Japanese can't read)😵‍💫
+>    easy_separator = easy_separator_closure()() #繧ｯ繝ｭ繝ｼ繧ｸ繝｣繧剃ｽｿ逕ｨ縺励◆
+
 
 # 🚴‍♂️Dear non-Japanese speaker
 
