@@ -132,6 +132,14 @@ No problem!!
 
 🚴‍♀️(JSP)
 
+```
+    easy_separator = easy_separator_closure()() #これはクロージャという機能
+```
+
+```
+    easy_separator = easy_separator_closure()() #繧ｯ繝ｭ繝ｼ繧ｸ繝｣繧剃ｽｿ逕ｨ縺励◆
+```
+
 # 🚴‍♂️Dear non-Japanese speaker
 
 ## References
