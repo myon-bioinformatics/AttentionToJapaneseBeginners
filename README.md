@@ -11,6 +11,10 @@
 > __Note__ Now Preparing
 
 # 🫶Notice🫶
+```python
+python main.py
+```
+
 **🚴‍♂️(ENG)**
 1. If a program includes non-alphanumeric-character, a problem may be occured by it.
 1. At this time, Shift_JIS is encoded or decoded as example.
