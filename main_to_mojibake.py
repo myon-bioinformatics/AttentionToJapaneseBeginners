@@ -1,13 +1,13 @@
 '''Dear English speaker
 !!!!!Attention in advance: this program is a failed case!!!!!
-SyntaxError: Non-UTF-8 code starting with...©this is encoded to "Shift JISh intentionally.
+SyntaxError: Non-UTF-8 code starting with...â†this is encoded to "Shift JISâ€ intentionally.
 Python 3 uses "UTF-8" as default encoding. you should execute main.py instead of this
 '''
 
-'''“ú–{Œê˜bÒ‚ÉŒü‚¯‚Ä
-!!!!!—\‚ß: ‚±‚ÌƒvƒƒOƒ‰ƒ€‚Í¸”s–—á‚Å‚·!!!!!
-SyntaxError: Non-UTF-8 code starting with...©‚í‚´‚Æ‚±‚Ìƒtƒ@ƒCƒ‹‚ğ"Shift JIS"‚ÉƒGƒ“ƒR[ƒh‚µ‚Ä‚¢‚Ü‚·B
-Python3‚ÍƒfƒtƒHƒ‹ƒg‚ÌƒGƒ“ƒR[ƒfƒBƒ“ƒO‚Æ‚µ‚ÄuUTF-8v‚ğg‚¢‚Ü‚·B‚±‚ê‚Å‚Í‚È‚­main.py‚ğ‘f’¼‚ÉÀs‚µ‚Ä‚­‚¾‚³‚¢BB
+'''æ—¥æœ¬èªè©±è€…ã«å‘ã‘ã¦
+!!!!!äºˆã‚: ã“ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¯å¤±æ•—äº‹ä¾‹ã§ã™!!!!!
+SyntaxError: Non-UTF-8 code starting with...â†ã‚ã–ã¨ã“ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’"Shift JIS"ã«ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ã—ã¦ã„ã¾ã™ã€‚
+Python3ã¯ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã¨ã—ã¦ã€ŒUTF-8ã€ã‚’ä½¿ã„ã¾ã™ã€‚ã“ã‚Œã§ã¯ãªãmain.pyã‚’ç´ ç›´ã«å®Ÿè¡Œã—ã¦ãã ã•ã„ã€‚ã€‚
 '''
 
 import inspect
@@ -15,7 +15,7 @@ import inspect
 #Standard Output: harmless Shift_JIS char
 def standard_output_harmless_shift_jis():
     easy_separator = easy_separator_closure()()
-    for char in ["ã‚?","ã?","è¨?","ã€?","èƒ½.","a","1"]: #harmless
+    for char in ["ç¹§?","ç¸º?","éšª?","ç¸²?","é–­ï½½.","a","1"]: #harmless
         print(char,char.encode("shift_jis"))
     easy_separator
     return
@@ -23,21 +23,21 @@ def standard_output_harmless_shift_jis():
 #Standard Output: HARMFUL Shift_JIS char!!
 def standard_output_harmful_shift_jis():
     easy_separator = easy_separator_closure()()
-    for char in ["è¡¨","èƒ½","å?","æ³?","å…?","å?","æ–½","å€?","æœ¬","å›³"]: #HARMFUL!!!!
+    for char in ["é™¦ï½¨","é–­ï½½","èœŠ?","è±•?","èœˆ?","è™?","è­ï½½","è›Ÿ?","è­›ï½¬","è—ï½³"]: #HARMFUL!!!!
         print(char,char.encode("shift_jis"))
     easy_separator
     return
 
 #print("No problem!!") with harmless Shift_JIS char
 def print_harmless_shift_jis():
-    easy_separator = easy_separator_closure()() #ã‚¯ãƒ­ãƒ¼ã‚¸ãƒ£ã‚’ä½¿ç”¨ã—ãŸ
+    easy_separator = easy_separator_closure()() #ç¹§ï½¯ç¹ï½­ç¹ï½¼ç¹§ï½¸ç¹ï½£ç¹§å‰ƒï½½ï½¿é€•ï½¨ç¸ºåŠ±â—†
     print("No problem!!")
     easy_separator
     return
 
 #print("No problem!!") may not function with HARMFUL Shift_JIS char!!
 def print_harmful_shift_jis():
-    easy_separator = easy_separator_closure()() #ã“ã‚Œã¯ã‚¯ãƒ­ãƒ¼ã‚¸ãƒ£ã¨ã?ã?æ©Ÿè?½
+    easy_separator = easy_separator_closure()() #ç¸ºè–™ï½Œç¸ºï½¯ç¹§ï½¯ç¹ï½­ç¹ï½¼ç¹§ï½¸ç¹ï½£ç¸ºï½¨ç¸º?ç¸º?è®–æº¯?ï½½
     print("No problem!!")
     easy_separator
     return
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     standard_output_harmless_shift_jis()
     standard_output_harmful_shift_jis()
 
-    #print("No problem!!") with Shift_JIS char
+    #print("No problem!!") with Shift_JIS char comments
     print_harmless_shift_jis()
     print_harmful_shift_jis()
 
