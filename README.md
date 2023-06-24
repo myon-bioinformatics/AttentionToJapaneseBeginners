@@ -16,6 +16,11 @@
 1. 今回は、Shift_JISがエンコードもしくはデコードされた時を例にします。
 1. ちなみにこのプログラム(_main.py_)は成功例のため、問題は基本的に起こりません。
 
+# Causion
+🚴‍♂️(ENG)
+
+🚴‍♀️(JSP)
+
 
 # 📝The Result of Standard Output📝
 🚴‍♂️(ENG)the following is the result to execute main.py as a succeed case.
