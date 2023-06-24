@@ -64,8 +64,10 @@
 🥷The solutions are surprisingly simple🥷
 
 Add a period (".") at the end of commented-out statements: **"Simple"**
+
 Use character encoding/decoding with a character set such as "UTF-8": **"Common"**
-Avoid using non-alphanumeric characters as far as possible: **"Important"**
+
+**Avoid using non-alphanumeric characters as far as possible**: **"Important"**
 
 🚴‍♀️(JSP)
 
@@ -109,6 +111,11 @@ Called function: print_harmful_shift_jis
 No problem!!
 ```
 > __Warning__ If a problem were occured, ` "print("No problem!!") at Called function: print_harmful_shift_jis" ` wouldn't function.
+
+# Addendum
+🚴‍♂️(ENG)
+
+🚴‍♀️(JSP)
 
 # 🚴‍♂️Dear non-Japanese speaker
 
