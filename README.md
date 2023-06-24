@@ -23,7 +23,7 @@
 
 - he second byte of the character "能" is " \\".
 
-- This is equivalent to writing "\\" at the end of a line.
+- This is equivalent to writing "\" at the end of a line, indicating the end of the line.
 
 - In the C programming language, this would result in the code being commented out until the next line.
 
@@ -31,7 +31,7 @@
 
 - 例えば、「能」という文字の2バイト目は「\」です。
 
-- これは行の終わりを意味する記号と同義です。
+- それは行末に「\\」と書かれていることと同義になります。
 
 - C言語では、これによって次の行までがコメントアウトされてしまいます。
 
