@@ -21,9 +21,9 @@
 # Example
 🚴‍♂️(ENG)
 
-- he second byte of the character "能" is "\".
+- he second byte of the character "能" is " \\".
 
-- This is equivalent to writing "\" at the end of a line.
+- This is equivalent to writing "\\" at the end of a line.
 
 - In the C programming language, this would result in the code being commented out until the next line.
 
