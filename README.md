@@ -56,7 +56,7 @@ No problem!!
 Called function: print_harmful_shift_jis
 No problem!!
 ```
-> If a problem may be occured, _print("No problem!!") at Called function: print_harmful_shift_jis_ isn't functioned 
+> __Warning__ If a problem may be occured, ` "print("No problem!!") at Called function: print_harmful_shift_jis" ` isn't functioned 
 
 # 🚴‍♂️Dear non-Japanese speaker
 
