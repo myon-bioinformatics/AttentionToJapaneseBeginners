@@ -41,7 +41,7 @@
 
 - 広義の意味では、2バイト目が0x7cの「|」（パイプ文字）や、2バイト目が正規表現などのメタ文字と重なる文字も含みます。
 
-### 🍮Example🍮
+### 🍮at length🍮
 🚴‍♂️(ENG)
 
 - he second byte of the character "能" is " \\".
@@ -50,6 +50,13 @@
 
 - In the C programming language, this would result in the code being commented out until the next line.
 
+**"Example"**
+```
+表: b'\x95\\'
+能: b'\x94\\'
+十: b'\x8f\\'
+```
+
 🚴‍♀️(JSP)
 
 - 例えば、「能」という文字の2バイト目は「\」です。
@@ -57,6 +64,13 @@
 - それは行末に「\\」と書かれていることと同義になります。
 
 - C言語では、これによって次の行までがコメントアウトされてしまいます。
+
+**"例"**
+```
+表: b'\x95\\'
+能: b'\x94\\'
+十: b'\x8f\\'
+```
 
 ## 😆Countermeasures
 🚴‍♂️(ENG)
