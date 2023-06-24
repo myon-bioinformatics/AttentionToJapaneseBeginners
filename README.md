@@ -1,7 +1,11 @@
 # 😎Summary
-**🚴‍♂️(ENG)Acknowledge HARMFUL Shift_JIS, and please pay attention not to let it use as far as possible!!**
+**🚴‍♂️(ENG)**
 
-**🚴‍♀️(JSP)コメントアウトや標準出力でさえ、プログラム内にはできるだけ漢字などを含めないようにしましょう...**
+**Acknowledge HARMFUL Shift_JIS, and please pay attention not to let it use as far as possible!!**
+
+**🚴‍♀️(JSP)**
+
+**コメントアウトや標準出力でさえ、プログラム内にはできるだけ漢字などを含めないようにしましょう...**
 
 > __Note__ Now Preparing
 
