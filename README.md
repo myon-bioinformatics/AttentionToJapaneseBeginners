@@ -11,19 +11,19 @@
 > __Note__ Now Preparing
 
 # 🫶Notice🫶
-🚴‍♂️(ENG)
+**🚴‍♂️(ENG)**
 1. If a program includes non-alphanumeric-character, a problem may be occured by it.
 1. At this time, Shift_JIS is encoded or decoded as example.
 1. By the way this program(_main.py_) is a succeed case, a problem isn't basically occured.
 
-🚴‍♀️(JSP)
+**🚴‍♀️(JSP)**
 1. アルファベットじゃない文字を使うとそれが原因で問題が起こることがあります。
 1. 今回は、Shift_JISがエンコードもしくはデコードされた時を例にします。
 1. ちなみにこのプログラム(_main.py_)は成功例のため、問題は基本的に起こりません。
 
 # 😖Cause & 😆Countermeasures
 ## 😖Cause
-🚴‍♂️(ENG)
+**🚴‍♂️(ENG)**
 
 🤖The followings are the causes🤖☞
 - Even though it appears as a single character, issues can arise due to the actual character consisting of two or more bytes. 
@@ -32,7 +32,7 @@
 
 - Broadly, it can include characters with a second byte of 0x7c( "|" ), or characters overlapping with metacharacters used in regular expressions.
 
-🚴‍♀️(JSP)
+**🚴‍♀️(JSP)**
 
 🤖以下がその原因です🤖☞
 
@@ -43,7 +43,7 @@
 - 広義の意味では、2バイト目が0x7cの「|」（パイプ文字）や、2バイト目が正規表現などのメタ文字と重なる文字も含みます。
 
 ### 🍮at length🍮
-🚴‍♂️(ENG)
+**🚴‍♂️(ENG)**
 
 - he second byte of the character "能" is " \\".
 
@@ -58,7 +58,7 @@
 十: b'\x8f\\'
 ```
 
-🚴‍♀️(JSP)
+**🚴‍♀️(JSP)**
 
 - 例えば、「能」という文字の2バイト目は「\」です。
 
@@ -74,7 +74,7 @@
 ```
 
 ## 😆Countermeasures
-🚴‍♂️(ENG)
+**🚴‍♂️(ENG)**
 
 🥷The solutions are surprisingly simple🥷
 
@@ -84,7 +84,7 @@ Use character encoding/decoding with a character set such as "UTF-8": **"Common"
 
 **Avoid using non-alphanumeric characters as far as possible**: **"Important"**
 
-🚴‍♀️(JSP)
+**🚴‍♀️(JSP)**
 
 🥷解決策は意外と単純🥷
 - コメントアウトの文末に"."(ピリオド)などをつける: **「簡単」**
@@ -92,9 +92,9 @@ Use character encoding/decoding with a character set such as "UTF-8": **"Common"
 - **そもそも英数字以外はできるだけ使わない**: **「重要」**
 
 # 📝The Result of Standard Output📝
-🚴‍♂️(ENG)☕️The following is the result to execute main.py as a succeed case☕️
+**🚴‍♂️(ENG)**☕️The following is the result to execute main.py as a succeed case☕️
 
-🚴‍♀️(JSP)☕️以下の例はmain.pyを実行した時の成功例の結果です☕️
+**🚴‍♀️(JSP)**☕️以下の例はmain.pyを実行した時の成功例の結果です☕️
 
 ```
 ----------------
@@ -128,9 +128,9 @@ No problem!!
 > __Warning__ If a problem were occured, ` "print("No problem!!") at Called function: print_harmful_shift_jis" ` wouldn't function.
 
 # Addendum
-🚴‍♂️(ENG)
+**🚴‍♂️(ENG)**
 
-🚴‍♀️(JSP)
+**🚴‍♀️(JSP)**
 
 ### 🧁in detail🧁
 - 🤥main.py🤥
