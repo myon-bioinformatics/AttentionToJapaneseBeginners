@@ -89,9 +89,16 @@ No problem!!
 
 # 🚴‍♂️Dear non-Japanese speaker
 
+## References
+- [Variable-width_encoding](https://en.wikipedia.org/wiki/Variable-width_encoding)
+- [Mojibake](https://en.wikipedia.org/wiki/Mojibake)
+
 # 🚴‍♀️日本語話者に向けて
 
-参考： https://sites.google.com/site/fudist/Home/grep/sjis-damemoji-jp?authuser=0
+## 参考 
+- [Shift_JISのダメ文字](https://sites.google.com/site/fudist/Home/grep/sjis-damemoji-jp?authuser=0)
+- [マルチバイト文字](https://ja.wikipedia.org/wiki/%E6%96%87%E5%AD%97%E5%8C%96%E3%81%91)
+- [文字化け](https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AB%E3%83%81%E3%83%90%E3%82%A4%E3%83%88%E6%96%87%E5%AD%97)
 
 
 
