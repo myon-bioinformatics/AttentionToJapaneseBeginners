@@ -1,7 +1,7 @@
 # 😎Summary😎
 **🚴‍♂️(ENG)**
 
-**Acknowledge HARMFUL Shift_JIS char as example, and please pay attention not to let non-alphanumeric-character use as far as possible**
+**About HARMFUL Shift_JIS char as example, and please pay attention not to let non-alphanumeric-character use as far as possible**
 
 **🚴‍♀️(JSP)**
 
