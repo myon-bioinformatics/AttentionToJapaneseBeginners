@@ -35,7 +35,7 @@
 
 🤖以下がその原因です🤖☞
 
-- 見かけ上は1つの文字であっても、実際には2バイト以上であることが原因で問題が起こりることがあります。
+- 見かけ上は1つの文字であっても、実際には2バイト以上であることが原因で問題が起こることがあります。
 
 - Shift_JIS（SJIS、cp932）の文字コードでは、2バイト目が0x5cの「\」（バックスラッシュ）を含む文字が代表的です。
 
@@ -59,7 +59,20 @@
 - C言語では、これによって次の行までがコメントアウトされてしまいます。
 
 ## 😆Countermeasures
+🚴‍♂️(ENG)
 
+🥷The solutions are surprisingly simple🥷
+
+Add a period (".") at the end of commented-out statements: **"Simple"**
+Use character encoding/decoding with a character set such as "UTF-8": **"Common"**
+Avoid using non-alphanumeric characters as far as possible: **"Important"**
+
+🚴‍♀️(JSP)
+
+🥷解決策は意外と単純🥷
+- コメントアウトの文末に"."(ピリオド)などをつける: **「簡単」**
+- エンコード/デコード時の文字コードを「UTF-8」などにする: **「通常」**
+- **そもそも英数字以外はできるだけ使わない**: **「重要」**
 
 # 📝The Result of Standard Output📝
 🚴‍♂️(ENG)☕️The following is the result to execute main.py as a succeed case☕️
