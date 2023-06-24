@@ -6,7 +6,7 @@
 # 🫶Notice
 1. If a program includes non-alphabet character, a problem is occured by it.
 1. At this time, Shift_JIS is encoded or decoded as example.
-1. By the way this program(main.py) is a succeed case, a problem isn't basically occured by it
+1. By the way this program(_main.py_) is a succeed case, a problem isn't basically occured.
 
 
 # 📝The Result of Standard Output📝
