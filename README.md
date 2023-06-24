@@ -130,9 +130,14 @@ No problem!!
 # Addendum
 **🚴‍♂️(ENG)**
 
+⚠️The file "main_to_shift_jis.py" is a version of "main.py" encoded in Shift_JIS instead of UTF-8.
+
 **🚴‍♀️(JSP)**
 
-### 🧁in detail🧁
+⚠️「main_to_shift_jis.py」は、「main.py」をUTF-8ではなくShift_JISでエンコードしたファイルです。
+
+
+### 🧁Mojibake in detail🧁
 - 🤥main.py🤥
 >    easy_separator = easy_separator_closure()() #これはクロージャという機能
 
