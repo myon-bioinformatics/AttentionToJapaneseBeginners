@@ -138,11 +138,17 @@ No problem!!
 >- 🤥main.py🤥
 >>    easy_separator = easy_separator_closure()() #これはクロージャという機能
 >
->- 😵‍💫main_to_mojibake.py(Even the Japanese can't read)😵‍💫
+>- 😵‍💫main_to_mojibake.py(Even the Japanese speaker can't read)😵‍💫
 >>    easy_separator = easy_separator_closure()() #繧ｯ繝ｭ繝ｼ繧ｸ繝｣繧剃ｽｿ逕ｨ縺励◆
 
 
 # 🚴‍♂️Dear non-Japanese speaker
+About "繧ｯ繝ｭ繝ｼ繧ｸ繝｣繧剃ｽｿ逕ｨ縺励◆" even the Japanese speaker doesn't use.
+But, 
+
+
+> 十(b'\x8f\\') means "Ten(=10)"
+> For Jujutsu Kaisen, characters such as Megumi Fushiguro use "Ten Shadows Technique"(十種影法術 Tokusa no Kage Bōjutsu)
 
 ## References
 - [Variable-width_encoding](https://en.wikipedia.org/wiki/Variable-width_encoding)
