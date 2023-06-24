@@ -158,7 +158,7 @@ But, they often use the char like ["表","能","十","法","充","型","施","�
 > 
 > >🔟🔟(Twenty) expresses 20, or 二十(二=two)
 > 
-> About Jujutsu Kaisen, characters such as Megumi Fushiguro use "Ten Shadows Technique"(十種影法術 Tokusa no Kage Bōjutsu)
+> About Jujutsu Kaisen, a part of characters such as Megumi Fushiguro use "Ten Shadows Technique"(十種影法術 Tokusa no Kage Bōjutsu)
 >
 
 
