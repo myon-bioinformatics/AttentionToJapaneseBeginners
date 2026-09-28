@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **Archived / no longer actively maintained.**
+>
+> This repository is preserved as a historical bilingual educational example about Shift_JIS/multibyte character pitfalls. Repository-wide search found no implementation dependency from the owner's other repositories. It is not maintained as a shared library or test fixture. No further feature, dependency, compatibility, or CI maintenance is planned. Existing source and documentation are retained for reference.
+
 # 😎Summary😎
 ## **🚴‍♂️(ENG)**
 
